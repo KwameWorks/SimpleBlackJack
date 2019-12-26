@@ -176,6 +176,7 @@ if __name__== "__main__":
         print("The number of cards in the deck is now: " + str(len(currentDeck)))
         print()
         willContinue = doContinue()
+        print("=" *46)
 
     if(len(currentDeck) < 4):
         print("\nOh no! There is not enough cards to continue.")
